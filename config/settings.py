@@ -39,7 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     # local apps
-    'shortner.apps.ShortnerConfig'
+    'shortener.apps.ShortenerConfig'
 ]
 
 MIDDLEWARE = [
