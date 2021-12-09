@@ -6,6 +6,6 @@ app_name = 'shortner'
 
 urlpatterns = [
     path('', views.index, name='index'),
-    path('/create', views.create, name='create'),
-    path('/<uiid:uuid>', views.short, name='redirect')
+    path('create', views.create, name='create'),
+    path('<str:uuid>', views.shortened_go, name='shortened_go'),
 ]
